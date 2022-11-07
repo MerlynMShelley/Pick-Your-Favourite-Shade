@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href = "index.css">
+</head>
+<body>
+    
+    <!-- Container Code -->
+    <div class = "container">
+        <!-- Title -->
+        <h1 id = "titleColor" class = "title-color">Pick Your Favourite Shade! 🌈 </h1>
+        <h2 id = "colorTool" class ="color-tool"> Color Tool - Lighten / Darken </h2> 
+   
+    <!-- Get the Input color as hexcode -->
+    <label for = "hex">Please Enter the HexCode: </label>
+    <input type = "text" id = "hexInput" name = "hex" placeholder = "#000000"/>
+    <!-- Slider with range 0-100 -->
+    <label for = "slider" id = "sliderText">0%</label>
+    <input name = "slider" type = "range" min = "0" max = "100" value = "0" class = "slider" id = "slider"/>
+    <!-- Input color display -->
+    <p>Input Color</p>
+    <div id = "inputColor" class = "box"></div>
+    <!-- Altered color display -->
+    <p>Altered Color</p>
+    <div id = "alteredColor" class = "box"></div>
+    
+</div>
+<script src = "index.js"> </script>
+</body>
+</html>
