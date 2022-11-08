@@ -12,9 +12,11 @@ body {
 
 .container {
     position: absolute;
-    top: 20%;
+    top: 23.5%;
     left: 50%;
+    bottom: 25%;
     margin-top: 15%;
+    margin-bottom: 15%;
     border-radius: 100px;
     
     transform: translate(-50%, -50%);
@@ -24,8 +26,8 @@ body {
     justify-content: center;
     align-items: center;
 
-    width: 1000px;
-    height: 600px;
+    width: 1200px;
+    height: 800px;
 }
 
 label {
